@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .icon {
+    @apply transform transition-all hover:scale-125 focus:ring-4 focus:outline-none focus:ring-offset-2 focus:ring-offset-task-active;
+  }
+
+  .loader {
+    border-top-color: #3498db;
+  }
+}
