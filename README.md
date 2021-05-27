@@ -30,9 +30,11 @@ The backend of this website was built using:
 
    _For installation see [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)_
 
-2. Install [composer](https://getcomposer.org/download/)
-3. `cd` to `backend` directory and run `composer install`
-4. Wait until all dependecies finished donwloading then run:
+2. Create a new database _(remember the name of the database, as we need it for our .env file)_
+3. Create a `.env` file and set the name of the database to the name you created, also set the port to `8000`.
+4. Install [composer](https://getcomposer.org/download/)
+5. `cd` to `backend` directory and run `composer install`
+6. Wait until all dependecies finished donwloading then run:
 
 ```shell
 > php -S localhost:8000 -t public
